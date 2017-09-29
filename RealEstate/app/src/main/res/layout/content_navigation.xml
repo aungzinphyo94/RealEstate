@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.azphyo.realestate.Navigation"
+    tools:showIn="@layout/app_bar_navigation">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/topup"/>
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Gallery"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnLocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGallery"
+        android:text="Locations"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnTestimonials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLocations"
+        android:text="Testimonials"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnContactus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnTestimonials"
+        android:layout_centerHorizontal="true"
+        android:text="Contact Us"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
